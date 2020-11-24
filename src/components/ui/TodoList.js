@@ -17,7 +17,7 @@ export default function TodoList(props) {
     } = props.actions;
     const count = list.filter((item) => item.completed !== true).length;
     const items = search(applyFilter(list, filter), query);
-    console.log(removeItem, "todolist.js");
+    // console.log(removeItem, "todolist.js");
 
     return (
         <div className="container">

@@ -42,9 +42,9 @@ export function updateStatus(items, itemId, completed) {
 export function removeItem(items, itemId) {
     let index = items.findIndex((item) => item.id === itemId);
     const copy = [...items];
-    console.log(index);
+    // console.log(index);
     copy.splice(index, 1);
-    console.log(copy);
+    // console.log(copy);
     return copy;
 }
 

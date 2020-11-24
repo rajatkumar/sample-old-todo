@@ -4,7 +4,7 @@ import { MSG_NO_ITEMS } from "../../assets/text/en_US";
 
 export default function FilteredList(props) {
     const { items, changeStatus, removeItem } = props;
-    console.log(removeItem);
+    // console.log(removeItem);
     if (items.length === 0) {
         return <p className="alert alert-info">{MSG_NO_ITEMS}</p>;
     }
