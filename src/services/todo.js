@@ -13,12 +13,12 @@ export function getAll() {
         },
         {
             id: 2,
-            text: "Fix mom's tablet",
+            text: "Groceries for dinner",
             completed: false,
         },
         {
             id: 3,
-            text: "Groceries for dinner",
+            text: "Take Sudo out for a walk",
             completed: false,
         },
     ];
