@@ -50,7 +50,7 @@ li.completed label {
 
 footer {
     border-top: 1px solid #ddd;
-    background-color: rgba(0, 239, 183, 0.2);
+    background-color: white;
     margin: 0 -20px -10px -20px;
     padding: 12px 20px;
     position: relative;
